@@ -1,0 +1,13 @@
+#CV{
+	text-align:center;
+	background-color: white;
+	padding-bottom: 100px;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.row{
+	align-items: center;
+}

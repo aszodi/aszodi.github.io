@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alexandre Aszodi, futur diplômé de l'école d'ingénieur ECE Paris">
+    <meta name="author" content="Alexandre Aszodi">
+
+    <title>Alexandre Aszodi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="custom.min.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Alexandre Aszodi</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#profil">Profil</a></li>
+				<li><a href="#experiences">Expériences</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#competences">Compétences</a></li>
+				<li><a href="#langues">Langues</a></li>
+                <li><a href="#hobbies">Centres d'intérêts</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="CV - Alexandre Aszodi.pdf" target="_blank">Téléchargez mon CV</a></li>
+              </ul>
+            </li>
+			<li><a href="#">English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Deinobiotics</h1>
+              <p>Réalisation code</p>
+              <p><a class="btn btn-lg btn-primary" href="#1" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>ArchiBot</h1>
+              <p>Réalisation d'un robot cartographieur</p>
+              <p><a class="btn btn-lg btn-primary" href="#2" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>HandPaint</h1>
+              <p>Développer une application utilisant une caméra de reconnaissance de mouvement</p>
+              <p><a class="btn btn-lg btn-primary" href="#3" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+		<div class="item">
+          <img class="fourth-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Alfa</h1>
+              <p>Concept et prédéfinition d’un véhicule suborbital habité</p>
+              <p><a class="btn btn-lg btn-primary" href="#4" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+		<div class="item">
+          <img class="fifth-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Fifth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Télécommande</h1>
+              <p>Réalisation d’une télécommande sans pile</p>
+              <p><a class="btn btn-lg btn-primary" href="#5" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <!-- Main Container -->
+		<section class="container" id="CV">
+			<div class="row">
+				<figure class="col-sm-12" id="profil">
+					<h2>Profil</h2>
+					<p>Futur ingénieur généraliste ECE (promotion 2016)</br>
+					(spécialité Systèmes Temps-Réel Embarqués)</p>
+					<p>Capacité de recherche excellente, bonne gestion du temps et aime résoudre les problèmes, 
+					seul ou en équipe dans des projets pluridisciplinaires</p>
+					<p>Organisé avec la capacité de gérer de multiples projets en même temps et de toujours respecter les délais</p>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row">
+				<figure class="col-sm-12" id="experiences">
+					<h2>Expériences</h2>
+					<div class="row" id="1">
+						<figure class="col-sm-12">
+							<h3>2015</h3>
+							<p>DEINOBIOTICS – Stage 4 mois – Développeur  de logiciel</p>
+							<p>Objectif : Création d’un LIMS (Laboratory Information Management System)/ 
+							aide à la décision, codé en VBA fonctionnant avec le programme Excel 
+							afin de traiter et uniformiser les données issues de recherche antibiotique</p>
+						</figure>
+					</div>
+					<div class="row" id="2">
+						<figure class="col-sm-12">
+							<h3>2014 - 2015</h3>
+							<p>ECE PARIS – Projet Pluridisciplinaire en Equipe – Membre (équipe de 5)</p>
+							<p>Objectif : Création d’un robot capable de cartographier une pièce avec un laser télémétrique</p>
+						</figure>
+					</div>
+					<div class="row" id="3">
+						<figure class="col-sm-12">
+							<h3>2014</h3>
+							<p>PRINCE OF SONGKLA UNIVERSITY – Thaïlande – Stage 3 mois – Projet individuel</p>
+							<p>Objectif : Développer une application utilisant une caméra de reconnaissance de mouvement</p>
+						</figure>
+					</div>
+					<div class="row" id="4">
+						<figure class="col-sm-12">
+							<h3>2012 -2013</h3>
+							<p>ECE PARIS – Projet Scientifique et Technique en Equipe – Trésorier (équipe de 6)</p>
+							<p>Objectif : Concept et prédéfinition d’un véhicule suborbital habité</br>
+							Projet sélectionné pour participer au concours « défi aérospatial étudiant » par Dassault Aviation</p>
+						</figure>
+					</div>
+					<div class="row" id="5">
+						<figure class="col-sm-12">
+							<h3>2011 -2012</h3>
+							<!-- <img src="ECE.jpg"/> -->
+							<p>ECE PARIS – Projet Scientifique et Technique en Equipe – Chef de projet (équipe de 5)</p>
+							<p> Objectif : Réalisation d’une télécommande sans pile 
+							utilisant le phénomène piézoélectrique en tant que source énergie (prototype fonctionnel)</p>
+						</figure>
+					</div>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row">
+				<figure class="col-sm-12" id="education">
+					<h2>Education</h2>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>2011 - 2016</h3>
+							<p>Diplôme d’Ingénieur Généraliste – École d’ingénieur ECE PARIS</p>
+							<p>Systèmes embarqués (5ème année en cours)</br>
+							(4ème année  16ème de promo)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>2015 - 2016</h3>
+							<p>1er Semestre en Norvège – University of Oslo</p>
+							<p>Semestre d’éducation en anglais</br>
+							(cours en intelligence artificielle, innovation et systèmes embarqués)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>2013 - 2014</h3>
+							<p>1er Semestre en Ecosse – Herriot-Watt University</p>
+							<p>Semestre d’éducation en anglais</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>2011</h3>
+							<p>Baccalauréat Scientifique – Campus Sainte Thérèse</p>
+							<p>Spécialité mathématiques (mention bien)</p>
+						</figure>
+					</div>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row">
+				<figure class="col-sm-12" id="competences">
+					<h2>Compétences</h2>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Programmation</h3>
+							<p>C, C#, C++</p>
+							<p>Python, VBA, VHDL, SQL, PHP, Java</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Bureautique</h3>
+							<p>Excel, Word, PowerPoint, Access…</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Système d’exploitation</h3>
+							<p>Windows, Linux</p>
+						</figure>
+					</div>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row">
+				<figure class="col-sm-12" id="langues">
+					<h2>Langues</h2>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Français</h3>
+							<p>Langue maternelle</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Anglais</h3>
+							<p>Bilingue (IELTS: 8)</br>
+							(3 ans vécus aux Etats-Unis)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<h3>Espagnol</h3>
+							<p>Intermédiaire</p>
+						</figure>
+					</div>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row">
+				<figure class="col-sm-12" id="hobbies">
+					<h2>Centres d'intérêts</h2>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Membre de l’association ECEPACE en tant que responsable des évènements (club aéronautique) (2014-2015)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Tuteur pour aider les élèves juniors (2014-2015)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Aide à la construction d’une école en Equateur (Été 2010 dans le cadre d’un projet scolaire)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Brevet d’initiation aéronautique (2011)</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Ski, tennis, badminton, football…</p>
+						</figure>
+					</div>
+					<div class="row">
+						<figure class="col-sm-12">
+							<p>Voyager</p>
+						</figure>
+					</div>
+				</figure>
+			</div>
+			<hr class="featurette-divider">
+			<div class="row" id="contact">
+				<figure class="col-sm-12">
+					<h2>Contact</h2>
+					<p>+33 (0)6 73 77 50 38</p>
+					<p>alexandre.aszodi@gmail.com</p>
+					<p>107 rue Mouffetard, 75005, PARIS</p>
+				</figure>
+			</div>
+		</section>
+		
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+		var shiftWindow = function() { scrollBy(0, -50) };
+		if (location.hash) shiftWindow();
+		window.addEventListener("hashchange", shiftWindow);
+	</script>
+  </body>
+</html>
